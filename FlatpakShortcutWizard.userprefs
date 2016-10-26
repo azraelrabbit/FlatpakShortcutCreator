@@ -1,0 +1,9 @@
+﻿<Properties StartupConfiguration="{15CC8C0B-0BD1-4490-9EFF-4269333E081C}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FlatpakShortcutWizard PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

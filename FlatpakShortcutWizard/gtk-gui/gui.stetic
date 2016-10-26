@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/FlatpakShortcutWizard.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="705 473">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Flatpak ShortCut Creator</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Resizable">False</property>
+    <property name="DefaultWidth">600</property>
+    <property name="DefaultHeight">400</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="WidthRequest">650</property>
+        <property name="HeightRequest">450</property>
+        <property name="HasWindow">False</property>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="entry1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">●</property>
+          </widget>
+          <packing>
+            <property name="X">110</property>
+            <property name="Y">13</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lbl1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">filter</property>
+          </widget>
+          <packing>
+            <property name="X">48</property>
+            <property name="Y">18</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">search</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButton1Clicked" />
+          </widget>
+          <packing>
+            <property name="X">282</property>
+            <property name="Y">8</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+            <property name="MemberName" />
+            <property name="ShadowType">In</property>
+            <child>
+              <widget class="Gtk.TreeView" id="treeview1">
+                <property name="MemberName" />
+                <property name="WidthRequest">580</property>
+                <property name="HeightRequest">340</property>
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">9</property>
+            <property name="Y">49</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">selected app:</property>
+          </widget>
+          <packing>
+            <property name="X">16</property>
+            <property name="Y">416</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblSelected">
+            <property name="MemberName" />
+          </widget>
+          <packing>
+            <property name="X">143</property>
+            <property name="Y">415</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnCreateCut">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Create ShortCut</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnCreateCutClicked" />
+          </widget>
+          <packing>
+            <property name="X">460</property>
+            <property name="Y">406</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

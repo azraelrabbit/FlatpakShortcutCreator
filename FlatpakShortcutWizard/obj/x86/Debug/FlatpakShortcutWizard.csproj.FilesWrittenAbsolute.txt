@@ -1,0 +1,7 @@
+/home/rocky/Projects/FlatpakShortcutWizard/FlatpakShortcutWizard/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/rocky/Projects/FlatpakShortcutWizard/FlatpakShortcutWizard/obj/x86/Debug/FlatpakShortcutWizard.gtk-gui.gui.stetic
+/home/rocky/Projects/FlatpakShortcutWizard/FlatpakShortcutWizard/bin/Debug/getlist.sh
+/home/rocky/Projects/FlatpakShortcutWizard/FlatpakShortcutWizard/bin/Debug/FlatpakShortcutWizard.exe.mdb
+/home/rocky/Projects/FlatpakShortcutWizard/FlatpakShortcutWizard/bin/Debug/FlatpakShortcutWizard.exe
+/home/rocky/Projects/FlatpakShortcutWizard/FlatpakShortcutWizard/obj/x86/Debug/FlatpakShortcutWizard.exe
+/home/rocky/Projects/FlatpakShortcutWizard/FlatpakShortcutWizard/obj/x86/Debug/FlatpakShortcutWizard.exe.mdb
